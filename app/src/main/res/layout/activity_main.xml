@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@mipmap/blue2"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="Bangladeshi Newspapers"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+    <GridLayout
+        android:columnCount="3"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <!--row1-->
+        <!--col1-->
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           app:cardElevation="8dp"
+           >
+           <LinearLayout
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="16dp"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:id="@+id/prothomAloId"
+                   android:src="@drawable/prothomalonew"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+        <!--row 1-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bdProtidinId"
+                    android:src="@drawable/bdprotidin"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row2-->
+        <!--col1-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ittefakId"
+                   android:src="@drawable/ittefaq"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row2-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/kalerKonthoId"
+                   android:src="@drawable/kalerkontho"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row3-->
+        <!--col1-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/noyaDigontoId"
+                   android:src="@drawable/noyadigonto"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row3-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bbcId"
+                    android:src="@drawable/bbc"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col1-->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/jagoId"
+                   android:src="@drawable/jago"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/amaderSomoiiId"
+                    android:src="@drawable/amadersomoy"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/voiceOfAmericaId"
+                   android:src="@drawable/voiceofamerica"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bdLiveId"
+                    android:src="@drawable/bdlive"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/dhakaTribuneId"
+                    android:src="@drawable/dhakatribune"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/news24Id"
+                  android:src="@drawable/news24com"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/banglaTribuneId"
+                    android:src="@drawable/banglatribune"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bangladeshOnlineId"
+                   android:src="@drawable/bangladeshonline"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--row4-->
+        <!--col2-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            android:background="#000  "
+            >
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bdNewsId"
+                    android:src="@drawable/bdnews24"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

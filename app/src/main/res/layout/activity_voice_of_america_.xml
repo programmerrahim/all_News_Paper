@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".VoiceOfAmerica_Activity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutId"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBarId"
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="8dp"
+            android:progress="20"
+            android:visibility="gone"
+            />
+
+        //Swipe Start
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/prothomAloWebId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        //Swipe Ends
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/homeId"
+            android:text="Home"
+            android:background="@drawable/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
